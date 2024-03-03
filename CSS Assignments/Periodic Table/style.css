@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 1000px;
+    border-spacing: 9px;
+}
+
+td{
+    border: 2px solid black;
+    
+}
+
+.none{
+    border: none;
+}
+
+.red{
+    background-color: #f7bdbd;
+}
+
+.yellow{
+    background-color: #f5f545;
+}
+
+.green{
+    background-color: #93ec0d;
+}
+
+.blue{
+    background-color: #7acff9;
+}
+
