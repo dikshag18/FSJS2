@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftsection{
+    width: 40%;
+
+}
+.leftsection h1{
+    font-size: 67px;
+}
+
+.leftsection p{
+    margin: 5% 0;
+
+}
+
+.leftsection button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightsection{
+    width: 60%;
+    margin-left: 60px;
+    padding: 10px;
+
+}
+
+.upimage{
+    padding: 10px;
+}
+#pic{
+    padding-right: 10px;
+}
