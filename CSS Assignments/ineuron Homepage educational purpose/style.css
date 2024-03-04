@@ -246,7 +246,7 @@ span{
 .seccontainer{
     margin: 10px;
     background-color: #fffafa;
-    height: 1000px;
+    height: 1100px;
 }
 
 .thirdsec{
@@ -356,63 +356,74 @@ hr{
     margin: 0px 10px 0px 10px;
 }
 
-.footer{
-    height: 500px;
-    background-color: #0a0a2f;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.footerdiv{
+    background-color: #06081b;
+    height: 550px;
     display: flex;
+    color: white;
     justify-content: space-between;
-    margin-top: 60px;
 }
 
-.leftft{
+.leftfooter{
+    margin: 50px 20px 20px 60px;
     width: 30%;
-    margin-left: 80px;
 }
 
-.ftl{
+#footerimg{
+    width: 150px;
+    height: 80px;
+}
+
+.footerpara{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: lightgrey;   
+}
+
+.fticon{
+    margin: 30px 30px 30px 0px;
+    font-size: 30px;
     color: white;
-    width: 140px;
-    height: 34px;
-    margin: 80px 30px 30px 10px;
 }
 
-.ftpara{
-    margin: 10px;
-    font-size: 25px;
+#ftlogo{
+    width: 100px;
+    height: 100px;
 }
 
-.logos{
-    margin: 10px;
-    
-}
-
-.ftul{
-    display: flex;
-}
-
-.ful{
-    margin: 20px 50px 20px 0px;
-}
-
-.rightft{
-    width: 60%;
+.rightfooter{
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    margin: 80px;
+    margin-right: 70px;
 }
 
-.fthead{
+.ftheading{
+    margin-top: 80px;
     font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
 
-.ftli{
+.ft{
+    display: flex;
+
+}
+
+.ftul{
     list-style-type: none;
-    margin: 20px 0px 20px 0px;
+    margin: 40px 10px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ftli{
+    margin: 20px 70px 20px 0px;
     font-size: 20px;
 }
+
+
+
+
 
 
 
