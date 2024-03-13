@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-div{
+    display: flex;
+    margin-top: 50px;
+}
+
+#logo{
+    width: 120px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 250px;
+}
+
+ul li{
+    margin: 0px 25px;
+}
+
+ul li:first-child{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.inpt{
+    margin-left: 10px;
+    width: 140px;
+    height: 42px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.search-icon{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+::placeholder{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.main-div{
+    display: flex;
+    margin: 50px;
+}
+
+.left-sec{
+    margin: 10px 0px 0px 50px;
+}
+
+#man-img{
+    position: absolute;
+    width: 380px;
+    height: 480px;
+    top: 175px;
+    left: 120px;
+}
+
+#square{
+    height: 320px;
+    margin: 240px 100px 0px 150px;
+}
+
+#globe{
+    width: 65px;
+    height: 65px;
+    margin-left: 220px;
+}
+
+#star{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 200px;
+    right: 170px;
+}
+
+.right{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    color: gray;
+    width: 600px;
+    text-align: center;
+    margin: 35px 0px 60px 50px;
+}
+
+#main-button{
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#main-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#str{
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.ftr{
+    margin-right: 220px;
+}
+
+h3{
+    color: gray;
+    text-align: center;
+    margin: 20px;
+}
+
+.lg{
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
