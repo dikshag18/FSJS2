@@ -30,7 +30,7 @@
                     <input type="text" name="Search" placeholder="Search Docs" class="w-[200px] h-[70px] bg-zinc-800 text-xl placeholder:text-gray-400 ml-10 hover:bg-gray-700">
                 </div>
                 <img src="./assets/download.svg" alt="download" class="absolute top-6 right-[240px] h-[25px]">
-                <button class="w-[200px] text-white text-xl bg-[#0066b8] font-semibold">Download</button>    
+                <button class="w-[200px] text-white text-xl bg-[#0066b8] font-semibold hover:bg-[#005ba4]">Download</button>    
             </div>            
         </div>
     </div>
@@ -53,7 +53,7 @@
             
             <button class=" btn mb-[10px] w-[300px] h-[90px] text-2xl text-white font-medium bg-[#0066b8]">Download for Windows <span class="font-light">Stable Build</span></button>
 
-            <button class="w-[60px] h-[90px] bg-[#0066b8]"><i class="fa-solid fa-chevron-down text-white"></i></button>
+            <button class="w-[60px] h-[90px] bg-[#0066b8]"><img src="./assets/chevronDownwhite.svg" alt="down" class="w-[25px] h-[25px] ml-[10px]"></button>
             
             <p class="text-gray-400 bg-[#25252b] w-[380px] text-center h-[50px] rounded-[10px] p-[11px] m-[12px] text-lg"><span class="text-sky-500">Web</span>, <span class="text-sky-500">Insiders-edition</span>, or <span class="text-sky-500">other platforms</span></p>
             
@@ -148,6 +148,59 @@
             </div>
         </div>
     </div>
+
+    <div class="flex flex-col items-center h-[500px] mt-[50px]">
+        <h1 class="text-4xl font-light">VS Code for</h1>
+        <ul class="flex flex-row justify-center items-center py-2 space-x-20 text-2xl mt-[50px]">
+            <li><img class="inline h-10" src="./assets/javascript.svg" alt="js">Javascript</li>
+            <li><img class="inline h-10" src="./assets/python.svg" alt="Python">Pthon</li>
+            <li><img class="inline h-10" src="./assets/java.svg" alt="java">Java</li>
+            <li><img class="inline h-10" src="./assets/markdown.svg" alt="markdown">Markdown</li>
+            <li><img class="inline h-10" src="./assets/typescript.svg" alt="typescript">Typescript</li>
+            <li><img class="inline h-10" src="./assets/cpp.svg" alt="C++">C/C++</li>
+        </ul>
+
+        <ul class="flex flex-row justify-center items-center text-2xl space-x-20 my-[30px]">
+            <li><img class="inline h-10" src="./assets/json.svg" alt="json">Json</li>
+            <li><img class="inline h-10" src="./assets/powershell (1).svg" alt="powershell">PowerShell</li>
+            <li><img class="inline h-10" src="./assets/html.svg" alt="html/css">HTML/CSS</li>
+            <li><img class="inline h-10" src="./assets/csharp.svg" alt="csharp">C#</li>
+            <li><img class="inline h-10" src="./assets/php.svg" alt="php">PHP</li>
+            <li><img class="inline h-10" src="./assets/yaml.svg" alt="yaml">YAML</li>
+        </ul>
+
+        <a class="mt-2 mb-14 text-sky-800 text-2xl hover:underline hover:cursor-pointer" href="#">and many more languages on the Marketplace...</a>
+        <button class="bg-[#0066b8] hover:bg-[#005ba4] text-white font-semibold p-2 mt-[30px] w-[280px] h-[70px] text-2xl">Get Started Now</button>
+        
+    </div>
+    
+    <!-- Download Section -->
+
+    <div class="bg-[#f5f5f5] flex flex-col h-[700px]">
+        <div class="flex justify-around mx-[210px] mt-[100px]">
+            <img src="./assets/windows-logo (1).png" alt="windows" class="w-[150px] h-[150px]">
+            <img src="./assets/linux-logo.png" alt="linux" class="w-[120px] h-[150px]">
+            <img src="./assets/apple-logo (1).svg" alt="apple" class="w-[130px] h-[130px]">
+        </div>
+
+        <div class="flex justify-around mx-[230px] mt-[30px] text-center">
+
+            <button class="bg-[#0066b8] text-white text-xl w-[320px] h-[95px] p-[10px] hover:bg-[#005ba4]">
+                <img src="./assets/download.svg" alt="download" class="h-[25px] relative left-[70px] top-[10px]"> Windows <p class="text-sm mb-[10px]">Windows 10, 11</p>
+            </button>
+
+            <div>
+                <button class="bg-[#0066b8] text-white text-xl w-[170px] h-[95px] p-[10px] hover:bg-[#005ba4]"><img src="./assets/download.svg" alt="download" class="h-[25px] relative left-[20px] top-[10px]">.deb <p class="text-sm mb-[10px]">debian, Ubuntu</p></button>
+
+                <button class="bg-[#0066b8] text-white text-xl w-[170px] h-[95px] p-[10px] hover:bg-[#005ba4]"><img src="./assets/download.svg" alt="download" class="h-[25px] relative left-[20px] top-[10px]">.rpm <p class="text-sm mb-[10px]">Red Hat, Fedora, SUSE</p></button>
+            </div>
+
+            <button class="bg-[#0066b8] text-white text-xl w-[320px] h-[95px] p-[10px] hover:bg-[#005ba4]"><img src="./assets/download.svg" alt="download" class="h-[25px] relative left-[90px] top-[10px]">Mac <p class="text-sm mb-[10px]">macOS 10.15+</p></button>
+
+        </div>
+    </div>
+
+
     
 </body>
 </html>
