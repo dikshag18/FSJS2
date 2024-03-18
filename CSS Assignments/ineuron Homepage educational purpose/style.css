@@ -138,7 +138,8 @@ input{
 .help-img{
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: fixed;
+    top: 550px;
     right: 50px;
 }
 
