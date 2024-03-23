@@ -10,4 +10,3 @@ console.log("Value of myString:", myString, "Data Type", typeof myString);
 console.log("Value of myBoolean:", myBoolean, "Data Type", typeof myBoolean);
 console.log("Value of myUndefined:", myUndefined, "Data Type", typeof myUndefined);
 console.log("Value of myNull:", myNull, "Data Type", typeof myNull);
-
