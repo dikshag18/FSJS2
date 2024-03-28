@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: #000000e9;
+    height: 800px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px 300px;
+}
+
+.nav_list li{
+    margin: 20px;
+}
+
+.dv{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    color: white;
+    margin-left: 15px;
+}
+
+#bt_text{
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+
+.first_btn{
+    color: white;
+    margin: 30px 0px 0px 40px;
+}
+
+.content{
+    display: flex;
+}
+
+.l_ctn{
+    margin-top: 85px;
+    padding-left: 140px;
+}
+
+#h_1{
+    margin-bottom: 30px;
+    font-size: 80px;
+    width: 900px;
+    font-weight: 400;
+}
+
+#sp_an{
+    color: #ec08e8;
+    font-weight: 700;
+}
+
+#p_{
+    font-size: 23px;
+    color: lightgrey;
+    width: 650px;
+    margin-bottom: 60px;
+}
+
+.btn_two{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#btn_pink{
+    width: 70px;
+}
+
+#h_3{
+    position: relative;
+    right: 38px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.user_div{
+    display: flex;
+}
+
+.left_user{
+    display: flex;
+    align-items: center;
+}
+
+._h2_{
+    font-size: 43px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.spa_n{
+    color: #ec08e8;
+}
+
+.us_er{
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.right_user{
+    display: flex;
+    align-items: center;
+}
