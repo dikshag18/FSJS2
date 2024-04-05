@@ -158,7 +158,99 @@ i{
     margin: 0px 100px;
 }
 
+.sec_2{
+    height: 800px;
+    background-color: #000000e9;
+}
 
+.div_two{
+    display: flex;
+    justify-content: center;
+}
 
+#head{
+    margin: 50px;
+    font-size: 50px;
+}
 
+#h1_{
+    margin: 50px;
+    font-size: 50px;
+    width: 500px;
+}
 
+#p_tag{
+    width: 295px;
+    margin: 100px;
+    color: lightgrey;
+}
+
+.div_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.img_box{
+    background-color: #3f3e3ec3;
+    width: 205px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    border: 1px solid lightgrey;
+}
+
+#bcg_{
+    background-color: #636060;
+}
+
+.bo_x{
+    margin-top: 50px;
+}
+
+.small_img{
+    height: 100px;
+    width: 100px;
+}
+
+.h_4{
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sec_tion{
+    background-color: #fcf0f2;
+}
+
+.div_three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+#head_two{
+    color: #ec08e8;
+    font-size: 50px;
+}
+
+#paragraph{
+    color: #000058;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#vcards{
+    height: 600px;
+}
