@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Practice</title>
+    <style>
+        .header{
+            color: blue;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="root">Not Rendering</div>
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const rootElement = document.querySelector(".root");
+        const csss = { border: "2px solid black", color: "purple"};
+        const header = ( <header className = "header"> 
+            <h1>Hello World!</h1>
+            <p>Welcome to React CDN</p>
+            </header>
+        );
+
+        const main = ( <main style = {csss}>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, beatae!</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error.</p>
+            </main>
+        );
+
+        const footer = ( <footer>
+            <p>copyright @ 2024</p>
+            </footer>
+        );
+          
+        // react fragment <> ....... </>  and Reusable Code
+        const app = <>      
+            {header}, {main}, {footer}, {header}, {main}, {main}, {main}, {footer}
+            </>
+
+        ReactDOM.render(app, rootElement);
+    </script>
+    
+</body>
+</html>
