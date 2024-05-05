@@ -1,5 +1,10 @@
 const prompt = require('prompt-sync')();
 
+//*
+//* *
+//* * *
+
+
 const input = parseInt(prompt("Enter a number:"));
 
 if (!isNaN(input) && input > 0) {
@@ -15,6 +20,10 @@ if (!isNaN(input) && input > 0) {
 }
 
 
+// * * *
+// * * *
+// * * * 
+
 const inpt = parseInt(prompt("Enter a number:"));
 
 if (!isNaN(inpt) && input > 0) {
@@ -29,6 +38,11 @@ if (!isNaN(inpt) && input > 0) {
     console.log("Please enter a valid positive number.");
 }
 
+
+
+//  *
+// * *
+//* * *
 
 const input1 = parseInt(prompt("Enter a number:"));
 
